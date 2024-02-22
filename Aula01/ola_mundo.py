@@ -4,4 +4,5 @@ b = 23
 
 soma = a + b
 
+print("Resultado da soma:")
 print(soma)
