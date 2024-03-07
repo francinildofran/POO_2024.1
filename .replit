@@ -1,4 +1,4 @@
-entrypoint = "L03Q2/Ex04.py"
+entrypoint = "IntroPOO/L01/Q01.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
@@ -11,7 +11,7 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "Ex04.py"]
+run = ["python3", "Q01.py"]
 deploymentTarget = "cloudrun"
 
 [[ports]]
