@@ -9,6 +9,6 @@ class Raio:
   def cal_circf(self):
       return 2 * 3.14 * self.raio
 
-circulo1 = Raio(5)
+circulo1 = Raio(int(input()))
 print(circulo1.cal_circf())
 print(circulo1.calc_area())
